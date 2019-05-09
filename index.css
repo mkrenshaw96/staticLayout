@@ -177,6 +177,15 @@ section {
 
 .titles_bar_1 img:nth-child(2) {
     left: 237px;
+
+    &.grow {
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            transform: scale(3);
+        }
+    }
+
 }
 
 .titles_bar_1 img:nth-child(3) {
