@@ -1,0 +1,300 @@
+html {
+    background-color: #141414;
+}
+
+.body {
+    height: 68px;
+    width: 1280px;
+}
+
+/*NAVBAR*/
+.navbar {
+    position: fixed;
+    z-index: 10;
+    background-color: transparent;
+    height: 68px;
+    width: 1280px;
+}
+
+#logo {
+    height: 45px;
+    width: 132px;
+    position: absolute;
+    display: inline-block;
+    top: 12px;
+    left: 30px;
+}
+
+#logo a {
+    height: inherit;
+    width: inherit;
+}
+
+ul {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    height: 16px;
+    width: 388px;
+    background-color: transparent;
+}
+
+li {
+    color: white;
+    position: relative;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 80%;
+    display: inline-block;
+    top: -1px;
+    left: -40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+section {
+    height: 720px;
+    width: 1280px;
+    background-image: url('./assets/infinity_war_pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: -8px;
+    padding: 0;
+    position: relative;
+}
+
+.wrapper2 {
+    height: 720px;
+    width: 1280px;
+    background-color: #141414;
+    display: block;
+    position: absolute;
+    top: 720px;
+}
+
+#heading_1 {
+    color: white;
+    position: absolute;
+    display: block;
+    top: 560px;
+    left: 51px;
+    z-index: 3;
+    font-size: 110%;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#heading_2 {
+    color: white;
+    position: absolute;
+    top: 770px;
+    left: 51px;
+    z-index: 5;
+    font-size: 110%;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#heading_3 {
+    color: white;
+    position: absolute;
+    top: 980px;
+    left: 51px;
+    z-index: 5;
+    font-size: 110%;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#heading_4 {
+    color: white;
+    position: absolute;
+    top: 1190px;
+    left: 50px;
+    z-index: 5;
+    font-size: 110%;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.infinity_war_callout {
+    widows: 550px;
+    height: 123px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    left: 50px;
+    top: 165px;
+}
+
+#buttonstyle1 {
+    background-color: black;
+    opacity: .4;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    border-radius: 4px;
+    border: none;
+    position: absolute;
+    left: 50px;
+    top: 330px;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#buttonstyle2 {
+    background-color: black;
+    opacity: .4;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    border-radius: 4px;
+    border: none;
+    position: absolute;
+    left: 200px;
+    top: 330px;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.titles_styling {
+    width: 234px;
+    height: 132px;
+    position: absolute;
+    display: inline-block;
+}
+
+.titles_bar_1 {
+    height: 132px;
+    width: 1226px;
+    position: absolute;
+    background-color: transparent;
+    border: transparent 2px solid;
+    z-index: 4;
+    top: 590px;
+    left: 50px;
+    overflow: hidden;
+}
+
+.titles_bar_1 img:nth-child(2) {
+    left: 237px;
+}
+
+.titles_bar_1 img:nth-child(3) {
+    left: 474px;
+}
+
+.titles_bar_1 img:nth-child(4) {
+    left: 711px;
+}
+
+.titles_bar_1 img:nth-child(5) {
+    left: 948px;
+}
+
+.titles_bar_1 img:nth-child(6) {
+    left: 1185px;
+}
+
+.titles_bar_2 {
+    height: 132px;
+    width: 1226px;
+    position: absolute;
+    background-color: transparent;
+    border: transparent 2px solid;
+    z-index: 4;
+    top: 800px;
+    left: 50px;
+    overflow: hidden;
+}
+
+.titles_bar_2 img:nth-child(2) {
+    left: 237px;
+}
+
+.titles_bar_2 img:nth-child(3) {
+    left: 474px;
+}
+
+.titles_bar_2 img:nth-child(4) {
+    left: 711px;
+}
+
+.titles_bar_2 img:nth-child(5) {
+    left: 948px;
+}
+
+.titles_bar_2 img:nth-child(6) {
+    left: 1185px;
+}
+
+.titles_bar_3 {
+    height: 132px;
+    width: 1226px;
+    position: absolute;
+    background-color: transparent;
+    border: transparent 2px solid;
+    z-index: 4;
+    top: 1010px;
+    left: 50px;
+    overflow: hidden;
+}
+
+.titles_bar_3 img:nth-child(2) {
+    left: 237px;
+}
+
+.titles_bar_3 img:nth-child(3) {
+    left: 474px;
+}
+
+.titles_bar_3 img:nth-child(4) {
+    left: 711px;
+}
+
+.titles_bar_3 img:nth-child(5) {
+    left: 948px;
+}
+
+.titles_bar_3 img:nth-child(6) {
+    left: 1186px;
+}
+
+.titles_bar_4 {
+    height: 132px;
+    width: 1226px;
+    position: absolute;
+    background-color: transparent;
+    border: transparent 2px solid;
+    z-index: 4;
+    top: 1220px;
+    left: 50px;
+    overflow: hidden;
+}
+
+.titles_bar_4 img:nth-child(2) {
+    left: 237px;
+}
+
+.titles_bar_4 img:nth-child(3) {
+    left: 474px;
+}
+
+.titles_bar_4 img:nth-child(4) {
+    left: 711px;
+}
+
+.titles_bar_4 img:nth-child(5) {
+    left: 948px;
+}
+
+.titles_bar_4 img:nth-child(6) {
+    left: 1185px;
+}
+
+.gradient {
+    position: absolute;
+    height: 144px;
+    width: 1280px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(20, 20, 20, 1));
+    top: 576px;
+}
