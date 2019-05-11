@@ -2,9 +2,9 @@ html {
     background-color: #141414;
 }
 
-.body {
-    height: 68px;
-    width: 1280px;
+body {
+    margin: 0;
+    padding: 0;
 }
 
 /*NAVBAR*/
@@ -13,7 +13,7 @@ html {
     z-index: 10;
     background-color: transparent;
     height: 68px;
-    width: 1280px;
+    width: 100vw;
 }
 
 #logo {
@@ -36,7 +36,7 @@ ul {
     top: 10px;
     left: 160px;
     height: 16px;
-    width: 388px;
+    width: 395px;
     background-color: transparent;
 }
 
@@ -53,24 +53,69 @@ li {
 a {
     text-decoration: none;
     color: white;
-    margin-left: 20px;
+    margin-left: 22px;
+}
+
+
+#search {
+    height: 28px;
+    width: 28px;
+    position: relative;
+    left: 1040px;
+    top: 2px;
+}
+
+#search img {
+    height: inherit;
+    width: inherit;
+}
+
+#dvd {
+    position: relative;
+    width: 30px;
+    left: 1085px;
+    top: -19px;
+    color: white;
+    font-size: 80%;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#bell {
+    position: relative;
+    left: 1135px;
+    top: -41px;
+    height: 28px;
+    width: 28px;
+    filter: invert(100%);
+}
+
+#profile_icon {
+    position: relative;
+    top: -70px;
+    height: 32px;
+    width: 32px;
+    left: 1185px;
+}
+
+#profile_icon img {
+    height: inherit;
+    width: inherit;
 }
 
 section {
     height: 720px;
-    width: 1280px;
+    width: 100vw;
     background-image: url('./assets/infinity_war_pic.jpg');
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     display: inline-block;
-    margin: -8px;
-    padding: 0;
     position: relative;
+    top: -1px;
 }
 
 .wrapper2 {
     height: 720px;
-    width: 1280px;
+    width: 100vw;
     background-color: #141414;
     display: block;
     position: absolute;
@@ -119,7 +164,6 @@ section {
 }
 
 .infinity_war_callout {
-    widows: 550px;
     height: 123px;
     background-color: transparent;
     position: absolute;
@@ -127,6 +171,8 @@ section {
     left: 50px;
     top: 165px;
 }
+
+
 
 #buttonstyle1 {
     background-color: black;
@@ -172,15 +218,33 @@ section {
     z-index: 4;
     top: 590px;
     left: 50px;
-    overflow: hidden;
+    overflow: auto;
+}
+
+.titles_bar_1 img:nth-last-child(1) {
+    transition: all .4s ease-in-out;
+}
+
+.titles_bar_1 img:nth-child(1):hover {
+    transform: scale(.95);
 }
 
 .titles_bar_1 img:nth-child(2) {
     left: 237px;
+    transition: all .4s ease-in-out;
+}
+
+.titles_bar_1 img:nth-child(2):hover {
+    transform: scale(.95);
 }
 
 .titles_bar_1 img:nth-child(3) {
     left: 474px;
+    transition: all .4s ease-in-out;
+}
+
+.titles_bar_1 img:nth-child(3):hover {
+    transform: scale(.95);
 }
 
 .titles_bar_1 img:nth-child(4) {
@@ -195,6 +259,8 @@ section {
     left: 1185px;
 }
 
+
+
 .titles_bar_2 {
     height: 132px;
     width: 1226px;
@@ -204,7 +270,7 @@ section {
     z-index: 4;
     top: 800px;
     left: 50px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .titles_bar_2 img:nth-child(2) {
@@ -236,7 +302,7 @@ section {
     z-index: 4;
     top: 1010px;
     left: 50px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .titles_bar_3 img:nth-child(2) {
@@ -268,7 +334,7 @@ section {
     z-index: 4;
     top: 1220px;
     left: 50px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .titles_bar_4 img:nth-child(2) {
